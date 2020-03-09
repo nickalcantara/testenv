@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $heading-font;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  @include unstyle-list();
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  img {
+    min-width: 100%;
+    @include fill-parent();
+  }
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
