@@ -15,6 +15,7 @@ module.exports = {
   entry: {
     main: path.resolve(__dirname, 'src/js/app.js'),
     gallery: path.resolve(__dirname, 'src/components/gallery/index'),
+    channelSplit: path.resolve(__dirname, 'src/components/channel-split/index'),
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
